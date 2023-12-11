@@ -1617,6 +1617,17 @@
     <script src="js/scrollUp.min.js"></script>
     <!-- Main/Activator js -->
     <script src="js/main.js"></script>
+    <script>
+      function myFunction() {
+        var checkBox = document.getElementsByClassName("manufacturer");
+        var text = document.getElementById("text");
+        if (checkBox.checked == true) {
+          text.style.display = "block";
+        } else {
+          text.style.display = "none";
+        }
+      }
+    </script>
   </body>
 
   <!-- shop-left-sidebar31:48-->
