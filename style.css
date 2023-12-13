@@ -1423,12 +1423,12 @@ textarea:focus {
 }
 #scrollUp i {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 50px;
   display: block;
 }
 #scrollUp:hover i {
-  animation: liSlideInUp 1s infinite;
+  animation: liSlideInUp 0.75s infinite;
 }
 /*----------------------------------------*/
 /*  02. Home Page One
