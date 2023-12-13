@@ -2984,6 +2984,16 @@ textarea:focus {
   line-height: 24px;
   color: #888;
 }
+.footer-logo img {
+  width: auto;
+  height: 100px;
+}
+
+.logo-header {
+  width: auto;
+  height: 100px;
+}
+
 .footer-static-middle .des > li {
   color: #888;
   font-size: 14px;
