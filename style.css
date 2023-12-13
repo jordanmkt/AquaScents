@@ -3372,6 +3372,12 @@ li.rx-parent a.rx-show::after {
   padding: 4px 0 10px 0;
   overflow: hidden;
 }
+
+.other {
+  display: flex;
+  width: 860px;
+}
+
 li.right-menu .cat-mega-menu > li,
 li.right-menu .cat-mega-menu-2 > li {
   width: 50%;
