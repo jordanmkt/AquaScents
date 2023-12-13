@@ -1513,7 +1513,7 @@ textarea:focus {
   border: 1px solid #e1e1e1;
   min-width: 538px;
   height: 45px;
-  bottom: -20px;
+  /* top: 6px; */
   float: right;
 }
 .hm-searchbox .nice-select.select-search-category {
