@@ -1511,7 +1511,7 @@ textarea:focus {
   background: #fff;
   border-radius: 5px;
   border: 1px solid #e1e1e1;
-  min-width: 538px;
+  min-width: 1rem;
   height: 45px;
   /* top: 6px; */
   float: right;
@@ -3253,14 +3253,14 @@ textarea:focus {
 }
 li.rx-parent a.rx-default::after {
   content: "\f068";
-  font-family: "Montserrat";
+  font-family: fontawesome;
   position: absolute;
   left: 0;
   top: 0;
 }
 li.rx-parent a.rx-show::after {
   content: "\f067";
-  font-family: "Montserrat";
+  font-family: fontawesome;
   position: absolute;
   left: 0;
   top: 0;
