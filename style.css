@@ -3150,7 +3150,7 @@ textarea:focus {
 }
 .category-heading > h2::before {
   font-size: 20px;
-  vertical-align: top;
+  /* vertical-align: top; */
   content: "\f00a";
   font-family: fontawesome;
   font-weight: normal;
@@ -3317,7 +3317,7 @@ li.rx-parent a.rx-show::after {
 
 .other {
   display: flex;
-  width: 860px;
+  width: 960px;
 }
 
 li.right-menu .cat-mega-menu > li,
@@ -3340,7 +3340,7 @@ li.right-menu .cat-mega-menu-2 > li {
   position: relative;
 }
 .cat-mega-menu > li > ul > li > a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   display: block;
   line-height: 25px;
