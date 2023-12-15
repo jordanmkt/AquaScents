@@ -580,7 +580,14 @@ var arrNH = [
   },
 ];
 
-function hienNH(brandcheck_arr = [], pricecheck_arr = []) {
+function hienNH(
+  brandcheck_arr = [],
+  pricecheck_arr = [],
+  gendercheck_arr = []
+) {
+  var countproducts = 0;
+  var countproducts2 = 0;
+
   var list = document.getElementById("list");
 
   list.innerHTML = "";
@@ -609,6 +616,13 @@ function hienNH(brandcheck_arr = [], pricecheck_arr = []) {
         continue;
       if (giaNH >= 4000000 && !pricecheck_arr.includes("4")) continue;
     }
+    //filter gender
+    if (gendercheck_arr.length > 0) {
+      if (gendercheck_arr.includes(gioitinhNH) == false) continue;
+    }
+    countproducts++;
+    countproducts2++;
+
     list.innerHTML += `
     <div class="col-lg-4 col-md-4 col-sm-6 mt-40">
                     <!-- single-product-wrap start -->
@@ -683,6 +697,13 @@ function hienNH(brandcheck_arr = [], pricecheck_arr = []) {
 
     `;
   }
+  document.getElementById(
+    "countproducts"
+  ).innerHTML = `Showing ${countproducts} of 58 items`;
+
+  document.getElementById(
+    "countproducts2"
+  ).innerHTML = `Showing ${countproducts2} of 58 items`;
 }
 hienNH();
 
@@ -699,9 +720,16 @@ function chonNH() {
     if (arrprice[i].checked) pricecheck_arr.push(arrprice[i].value);
   }
 
-  hienNH(brandcheck_arr, pricecheck_arr);
+  var arrgender = document.getElementsByClassName("gender");
+  var gendercheck_arr = [];
+  for (i = 0; i < arrgender.length; i++) {
+    if (arrgender[i].checked) gendercheck_arr.push(arrgender[i].value);
+  }
+
+  hienNH(brandcheck_arr, pricecheck_arr, gendercheck_arr);
 }
 
+//nút clearall
 function clearAllCheckboxes() {
   var checkboxes = document.querySelectorAll('input[type="checkbox"]');
   checkboxes.forEach(function (checkbox) {

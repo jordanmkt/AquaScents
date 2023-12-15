@@ -351,7 +351,7 @@
                     </ul>
                   </div>
                   <div class="toolbar-amount">
-                    <span>Showing 10 to 19 of 19</span>
+                    <p id="countproducts"></p>
                   </div>
                 </div>
                 <!-- product-select-box start -->
@@ -387,9 +387,9 @@
                   <div class="paginatoin-area">
                     <div class="row">
                       <div class="col-lg-6 col-md-6 pt-xs-15">
-                        <p>Showing 10-18 of 18 item(s)</p>
+                        <p id="countproducts2"></p>
                       </div>
-                      <div class="col-lg-6 col-md-6">
+                      <!-- <div class="col-lg-6 col-md-6">
                         <ul class="pagination-box pt-xs-20 pb-xs-15">
                           <li>
                             <a href="#" class="Previous"
@@ -411,7 +411,7 @@
                             ></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -422,46 +422,39 @@
               <!--sidebar-categores-box start  -->
               <div class="sidebar-categores-box mt-sm-30 mt-xs-30">
                 <div class="sidebar-title">
-                  <h2>Gender</h2>
+                  <h2>Giới tính</h2>
                 </div>
                 <!-- category-sub-menu start -->
-                <div class="category-sub-menu">
-                  <ul>
-                    <li class="has-sub">
-                      <a href="# ">Cho Nam</a>
-                      <ul>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                      </ul>
-                    </li>
-                    <li class="has-sub">
-                      <a href="#">Cho Nữ</a>
-                      <ul>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                      </ul>
-                    </li>
-                    <li class="has-sub">
-                      <a href="#">Khác</a>
-                      <ul>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                        <li><a href="#">Sản phẩm.....</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <div class="categori-checkbox">
+                  <form action="#">
+                    <ul>
+                      <li>
+                        <input
+                          type="checkbox"
+                          onchange="chonNH()"
+                          class="gender"
+                          value="Nam"
+                        /><a href="#">Dành cho Nam</a>
+                      </li>
+
+                      <li>
+                        <input
+                          type="checkbox"
+                          onchange="chonNH()"
+                          class="gender"
+                          value="Nữ"
+                        /><a href="#">Dành cho Nữ</a>
+                      </li>
+                      <li>
+                        <input
+                          type="checkbox"
+                          onchange="chonNH()"
+                          class="gender"
+                          value="Unisex"
+                        /><a href="#">Unisex</a>
+                      </li>
+                    </ul>
+                  </form>
                 </div>
                 <!-- category-sub-menu end -->
               </div>
