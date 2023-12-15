@@ -3683,21 +3683,6 @@ li.right-menu .cat-mega-menu-2 > li {
     font-size: 10px;
     padding: 7px 7px;
   }
-  .product-image > span.sticker {
-    background: #f98967;
-    border-radius: 100%;
-    color: #fff;
-    right: 15px !important;
-    position: absolute !important;
-    top: 10px !important;
-    z-index: 99 !important;
-    height: 35px !important;
-    width: 35px !important;
-    line-height: 20px;
-    text-align: center !important;
-    text-transform: uppercase;
-    font-size: 10px !important;
-  }
 }
 .table-content table td.li-product-add-cart a:hover {
   background: #f98967 none repeat scroll 0 0;
@@ -5118,20 +5103,6 @@ span.required {
   .product-short .nice-select {
     width: 180px;
   }
-  .product-image > span.sticker {
-    background: #f98967 !important;
-    border-radius: 100% !important;
-    color: #fff !important;
-    right: 15px !important;
-    position: absolute !important;
-    top: -5px !important;
-    z-index: 99 !important;
-    width: 33px !important;
-    line-height: 20px !important;
-    text-align: center !important;
-    text-transform: uppercase !important;
-    font-size: 10px !important;
-  }
 }
 .product-short .nice-select .list {
   border-radius: 0px;
@@ -5248,21 +5219,6 @@ sticker .product-additional-info .wishlist-btn i {
   .product-social-sharing > ul > li {
     line-height: 18px;
     margin-bottom: 15px;
-  }
-  .product-image > span.sticker {
-    background: #f98967;
-    border-radius: 100% !important;
-    color: #fff !important;
-    right: 15px !important;
-    position: absolute !important;
-    top: 10px !important;
-    z-index: 99 !important;
-    height: 25px !important;
-    width: 25px !important;
-    line-height: 20px;
-    text-align: center !important;
-    text-transform: uppercase;
-    font-size: 8px !important;
   }
 }
 .product-social-sharing > ul > li:hover {
