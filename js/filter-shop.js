@@ -624,7 +624,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-4 col-md-4 col-sm-6 mt-40 mb-35">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">
@@ -730,9 +730,21 @@ function chonNH() {
 }
 
 //nút clearall
-function clearAllCheckboxes() {
-  var checkboxes = document.querySelectorAll('input[type="checkbox"]');
-  checkboxes.forEach(function (checkbox) {
-    checkbox.checked = false;
-  });
+function clearAll() {
+  var arrbrand = document.getElementsByClassName("brand");
+  for (i = 0; i < arrbrand.length; i++) {
+    arrbrand[i].checked = false;
+  }
+
+  var arrprice = document.getElementsByClassName("price");
+  for (i = 0; i < arrprice.length; i++) {
+    arrprice[i].checked = false;
+  }
+
+  var arrgender = document.getElementsByClassName("gender");
+  for (i = 0; i < arrgender.length; i++) {
+    arrgender[i].checked = false;
+  }
+
+  hienNH(); // Gọi lại hàm hiển thị sản phẩm sau khi xóa lựa chọn
 }
