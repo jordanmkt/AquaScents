@@ -624,7 +624,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-4 col-md-4 col-sm-6 mt-40">
+    <div class="col-lg-4 col-md-4 col-sm-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">

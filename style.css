@@ -48,18 +48,13 @@ button:focus {
   color: #000;
 }
 
-.slogan {
-  font-family: "Dancing Script";
-  color: #000;
-  font-weight: 700;
-}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: inherit;
+  font-family: "Montserrat";
   font-weight: 700;
   color: inherit;
   line-height: 1.1;
@@ -232,7 +227,7 @@ textarea {
 .section-title-2 > h3,
 .section-title-2 > p {
   color: #ffffff;
-  font-family: roboto;
+  font-family: "Montserrat";
   font-size: 30px;
   font-style: normal;
   font-weight: 900;
@@ -283,7 +278,7 @@ a.review-links {
   background: #f98967 none repeat scroll 0 0;
   color: #242424;
   display: inline-block;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
   height: 50px;
@@ -1362,11 +1357,6 @@ textarea:focus {
   animation: liSlideInUp 0.75s infinite;
 }
 /*----------------------------------------*/
-/*  02. Home Page One
-/*----------------------------------------*/
-/*----------------------------------------*/
-/*  2.1 Header
-/*----------------------------------------*/
 /*Header Top*/
 .header-top {
   background: #f8f9f9;
@@ -1704,7 +1694,7 @@ textarea:focus {
   background: linear-gradient(#626262, #2f2f2f);
   border-radius: 40px;
   color: #fff;
-  font-family: Carrois Gothic, Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Carrois Gothic, Arial, Helvetica, sans-serif;
   font-size: 11px;
   font-weight: bold;
   height: 20px;
@@ -1763,7 +1753,7 @@ textarea:focus {
   text-transform: uppercase;
   width: 100%;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 }
 .minicart .minicart-total span {
@@ -1772,7 +1762,7 @@ textarea:focus {
 }
 .li-button {
   display: inline-block;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
@@ -1865,7 +1855,7 @@ textarea:focus {
   float: right;
   font-weight: 400;
   font-size: 18px;
-  font-family: fontawesome;
+  font-family: "Montserrat";
   color: #242424;
   transition: all 0.3s ease-in-out;
 }
@@ -2204,7 +2194,7 @@ textarea:focus {
   color: #c8c8c8;
   cursor: pointer;
   display: inline-block;
-  font-family: "Rubik", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 18px;
@@ -2940,6 +2930,10 @@ textarea:focus {
   font-size: 12px;
 }
 /*Footer Block*/
+.footer-block {
+  width: max-content;
+}
+
 .footer-block > h3 {
   font-size: 20px;
   line-height: 24px;
@@ -4310,7 +4304,7 @@ thead {
   text-transform: uppercase;
   position: relative;
   margin-bottom: 52px;
-  font-family: Poppins;
+  font-family: "Montserrat";
 }
 .li-blog-sidebar .li-blog-sidebar-title::before {
   width: 55px;
@@ -4378,7 +4372,7 @@ thead {
   line-height: 30px;
   font-weight: 600;
   text-transform: capitalize;
-  font-family: Poppins;
+  font-family: P "Montserrat";
   padding-bottom: 15px;
   margin: 0;
 }
