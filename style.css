@@ -5052,7 +5052,9 @@ span.required {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  align-items: center;
 }
+
 @media only screen and (max-width: 479px) {
   .shop-bar-inner {
     margin-bottom: 10px;
@@ -5077,6 +5079,9 @@ span.required {
   font-size: 14px;
   margin-left: 30px;
   margin-top: 5px;
+}
+.toolbar-amount p {
+  margin-bottom: 0;
 }
 .product-short {
   display: -webkit-box;
@@ -5111,7 +5116,7 @@ span.required {
   z-index: 99;
 }
 .shop-top-bar {
-  padding: 15px;
+  padding: 8px;
   border: 1px solid #ededed;
 }
 @media only screen and (max-width: 767px) {
@@ -5156,7 +5161,6 @@ span.required {
   background: #ffffff none repeat scroll 0 0;
   border: 1px solid #ededed;
   border-radius: 3px;
-  color: #242424;
   font-size: 14px;
   font-weight: 400;
   margin: 40px 0 0;
