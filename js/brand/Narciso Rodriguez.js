@@ -139,11 +139,11 @@ function hienNH(
   }
   document.getElementById(
     "countproducts"
-  ).innerHTML = `Showing ${countproducts} of 2 item`;
+  ).innerHTML = `Showing ${countproducts} of 2 items`;
 
   document.getElementById(
     "countproducts2"
-  ).innerHTML = `Showing ${countproducts2} of 2 item`;
+  ).innerHTML = `Showing ${countproducts2} of 2 items`;
 }
 hienNH();
 
