@@ -126,23 +126,23 @@ label {
   color: #626262;
 }
 *::-moz-selection {
-  background: #4fc1f0;
+  background: #f98967;
   color: #fff;
   text-shadow: none;
 }
 ::-moz-selection {
-  background: #4fc1f0;
+  background: #f98967;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #4fc1f0;
+  background: #f98967;
   color: #fff;
   text-shadow: none;
 }
 .mark,
 mark {
-  background: #4fc1f0 none repeat scroll 0 0;
+  background: #f98967 none repeat scroll 0 0;
   color: #ffffff;
 }
 span.tooltip-content {
@@ -308,7 +308,7 @@ a.review-links:hover {
 /*  1.5 Text Color
 /*----------------------------------------*/
 .text-blue {
-  color: #4fc1f0;
+  color: #f98967;
 }
 .text-white {
   color: #fff;
@@ -342,7 +342,7 @@ input {
   height: 45px;
   box-shadow: none;
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: #626262;
   width: 100%;
 }
@@ -377,7 +377,7 @@ textarea {
 }
 textarea:focus {
   background: transparent;
-  border: 2px solid #4fc1f0;
+  border: 2px solid #f98967;
   outline: none;
 }
 ::-moz-placeholder {
@@ -420,7 +420,7 @@ textarea:focus {
   background: #e8e8e8;
 }
 .blue-bg {
-  background: #4fc1f0;
+  background: #f98967;
 }
 .default-bg {
   background: #50c1f0;
@@ -1124,7 +1124,7 @@ textarea:focus {
   font-size: 18px;
   letter-spacing: -0.025em;
   line-height: 24px;
-  color: #0363cd;
+  color: #f98967;
   text-transform: capitalize;
   font-weight: 500;
   margin: 0 0 15px 0;
@@ -3411,11 +3411,11 @@ li.right-menu .cat-mega-menu-2 > li {
 .featured-pro-content h4 a {
   font-size: 14px;
   font-weight: 500;
-  color: #0363cd;
+  color: #f98967;
 }
 .featured-pro-content h4:hover {
   text-decoration: underline;
-  color: #0363cd;
+  color: #f98967;
 }
 .featured-pro-content .rating-box {
   padding-top: 5px;
@@ -4993,7 +4993,7 @@ span.required {
 .color-categoriy ul li a,
 .categori-checkbox ul li a {
   color: #363f4d;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 15px;
   margin-top: 0;
 }
