@@ -1,5 +1,15 @@
 var arrNH = [
   {
+    brand: "Armaf",
+    hinh: "images_1/product/Armaf/Amaf club de nuit women.jpg",
+    sp: "Amaf club de nuit women",
+    gioitinh: "Nữ",
+    dungtich: "105",
+    gia: "1050000",
+    nongdo: "EDP",
+  },
+
+  {
     brand: "Calvin Klein",
     hinh: "images_1/product/Calvin Klein/CK Be 100ml.jpg",
     sp: "CK Be 100ml",
@@ -699,11 +709,11 @@ function hienNH(
   }
   document.getElementById(
     "countproducts"
-  ).innerHTML = `Showing ${countproducts} of 58 items`;
+  ).innerHTML = `Showing ${countproducts} of 59 items`;
 
   document.getElementById(
     "countproducts2"
-  ).innerHTML = `Showing ${countproducts2} of 58 items`;
+  ).innerHTML = `Showing ${countproducts2} of 59 items`;
 }
 hienNH();
 
