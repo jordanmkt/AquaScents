@@ -5,7 +5,7 @@ var arrNH = [
     sp: "Eau de Perfume",
     gioitinh: "Nam",
     dungtich: "125",
-    gia: "2620000",
+    gia: "3000000",
     nongdo: "EDT",
   },
 
@@ -15,7 +15,7 @@ var arrNH = [
     sp: "Eau de Toilet",
     gioitinh: "Nam",
     dungtich: "125",
-    gia: "3000000",
+    gia: "2620000",
     nongdo: "EDP",
   },
 

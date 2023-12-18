@@ -181,8 +181,8 @@ var arrNH = [
 
   {
     brand: "Hermes",
-    hinh: "images_1/product/Hermes/Hermes L’Ambre des Merveilles.jpg",
-    sp: "Hermes L’Ambre des Merveilles",
+    hinh: "images_1/product/Hermes/Hermes LAmbre des Merveilles.jpg",
+    sp: "Hermes LAmbre des Merveilles",
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2950000",
@@ -191,8 +191,8 @@ var arrNH = [
 
   {
     brand: "Hermes",
-    hinh: "images_1/product/Hermes/Hermes L’ombre des Merveilles.jpg",
-    sp: "Hermes L’ombre des Merveilles",
+    hinh: "images_1/product/Hermes/Hermes Lombre des Merveilles.jpg",
+    sp: "Hermes Lombre des Merveilles",
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2499000",
@@ -425,7 +425,7 @@ var arrNH = [
     sp: "Eau de Perfume",
     gioitinh: "Nam",
     dungtich: "125",
-    gia: "2620000",
+    gia: "3000000",
     nongdo: "EDT",
   },
 
@@ -435,7 +435,7 @@ var arrNH = [
     sp: "Eau de Toilet",
     gioitinh: "Nam",
     dungtich: "125",
-    gia: "3000000",
+    gia: "2620000",
     nongdo: "EDP",
   },
 

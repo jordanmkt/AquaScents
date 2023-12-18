@@ -11,8 +11,8 @@ var arrNH = [
 
   {
     brand: "Hermes",
-    hinh: "images_1/product/Hermes/Hermes L’Ambre des Merveilles.jpg",
-    sp: "Hermes L’Ambre des Merveilles",
+    hinh: "images_1/product/Hermes/Hermes LAmbre des Merveilles.jpg",
+    sp: "Hermes LAmbre des Merveilles",
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2950000",
@@ -21,8 +21,8 @@ var arrNH = [
 
   {
     brand: "Hermes",
-    hinh: "images_1/product/Hermes/Hermes L’ombre des Merveilles.jpg",
-    sp: "Hermes L’ombre des Merveilles",
+    hinh: "images_1/product/Hermes/Hermes Lombre des Merveilles.jpg",
+    sp: "Hermes Lombre des Merveilles",
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2499000",
