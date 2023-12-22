@@ -6,9 +6,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "30",
     gia: "1573000",
+    giamoi: "1390000",
     nongdo: "EDP",
   },
-
   {
     brand: "Versace",
     hinh: "images_1/product/Versace/Versace Man Eau Fraiche.jpg",
@@ -16,9 +16,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1850000",
+    giamoi: "1690000",
     nongdo: "EDT",
   },
-
   {
     brand: "Versace",
     hinh: "images_1/product/Versace/Versace Pour Homme.jpg",
@@ -26,7 +26,18 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1606000",
+    giamoi: "1490000",
     nongdo: "EDT",
+  },
+  {
+    brand: "Versace",
+    hinh: "images_1/product/Versace/Versace Dylan Blue Pour Femme.jpg",
+    sp: "Versace Dylan Blue Pour Femme",
+    gioitinh: "Nữ",
+    dungtich: "100",
+    gia: "2300000",
+    giamoi: "2090000",
+    nongdo: "EDP",
   },
 ];
 
@@ -48,11 +59,17 @@ function hienNH(
     gioitinhNH = arrNH[i].gioitinh;
     dungtichNH = arrNH[i].dungtich;
     giaNH = arrNH[i].gia;
+    giamoiNH = arrNH[i].giamoi;
     nongdoNH = arrNH[i].nongdo;
     giaFormatted = parseFloat(giaNH).toLocaleString("vi-VN", {
       style: "currency",
       currency: "VND",
     });
+    giaFormatted1 = parseFloat(giamoiNH).toLocaleString("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    });
+
     //filter brand
     if (brandcheck_arr.length > 0) {
       if (brandcheck_arr.includes(thuonghieuNH) == false) continue;
@@ -74,7 +91,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-40 mb-35">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">
@@ -112,7 +129,8 @@ function hienNH(
                             >
                           </h4>
                           <div class="price-box">
-                            <span class="new-price">${giaFormatted}</span>
+                            <span class="old-price">${giaFormatted}</span>
+                            <span class="new-price">${giaFormatted1}</span>
                             <span>${dungtichNH}ML</span>
                           </div>
                         </div>
@@ -149,11 +167,11 @@ function hienNH(
   }
   document.getElementById(
     "countproducts"
-  ).innerHTML = `Showing ${countproducts} of 3 items`;
+  ).innerHTML = `Showing ${countproducts} of 4 items`;
 
   document.getElementById(
     "countproducts2"
-  ).innerHTML = `Showing ${countproducts2} of 3 items`;
+  ).innerHTML = `Showing ${countproducts2} of 4 items`;
 }
 hienNH();
 

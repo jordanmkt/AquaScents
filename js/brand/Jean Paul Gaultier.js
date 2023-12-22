@@ -6,6 +6,7 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "3000000",
+    giamoi: "2790000",
     nongdo: "EDT",
   },
 ];
@@ -28,11 +29,17 @@ function hienNH(
     gioitinhNH = arrNH[i].gioitinh;
     dungtichNH = arrNH[i].dungtich;
     giaNH = arrNH[i].gia;
+    giamoiNH = arrNH[i].giamoi;
     nongdoNH = arrNH[i].nongdo;
     giaFormatted = parseFloat(giaNH).toLocaleString("vi-VN", {
       style: "currency",
       currency: "VND",
     });
+    giaFormatted1 = parseFloat(giamoiNH).toLocaleString("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    });
+
     //filter brand
     if (brandcheck_arr.length > 0) {
       if (brandcheck_arr.includes(thuonghieuNH) == false) continue;
@@ -54,7 +61,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-40 mb-35">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">
@@ -92,7 +99,8 @@ function hienNH(
                             >
                           </h4>
                           <div class="price-box">
-                            <span class="new-price">${giaFormatted}</span>
+                            <span class="old-price">${giaFormatted}</span>
+                            <span class="new-price">${giaFormatted1}</span>
                             <span>${dungtichNH}ML</span>
                           </div>
                         </div>
@@ -129,7 +137,7 @@ function hienNH(
   }
   document.getElementById(
     "countproducts"
-  ).innerHTML = `Showing ${countproducts} of 1 item`;
+  ).innerHTML = `Showing ${countproducts} of 1 item1`;
 
   document.getElementById(
     "countproducts2"

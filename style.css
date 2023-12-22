@@ -190,6 +190,10 @@ iframe {
   width: 100%;
   height: 300px;
 }
+
+#more {
+  display: none;
+}
 /*----------------------------------------*/
 /*  1.2 Transition
 /*----------------------------------------*/
@@ -333,6 +337,7 @@ a.review-links:hover {
 .text-theme {
   color: #f10;
 }
+
 /*----------------------------------------*/
 /*  1.6 Input
 /*----------------------------------------*/
@@ -2361,7 +2366,7 @@ textarea:focus {
 .product_desc .product_desc_info .new-price,
 .featured-price-box .new-price,
 .featured-price-box .new-price-2 {
-  color: #2f333a;
+  color: #f98967;
   font-size: 14px;
   font-weight: 500;
   padding-right: 10px;
@@ -2405,6 +2410,7 @@ textarea:focus {
   display: block;
   position: relative;
 }
+
 .add-actions-link {
   display: inline-block;
   margin-top: 24px;

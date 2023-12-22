@@ -6,9 +6,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2600000",
+    giamoi: "2390000",
     nongdo: "EDP",
   },
-
   {
     brand: "Montblanc",
     hinh: "images_1/product/Montblanc/Montblanc Legend Spirit.jpg",
@@ -16,9 +16,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1750000",
+    giamoi: "1590000",
     nongdo: "EDT",
   },
-
   {
     brand: "Montblanc",
     hinh: "images_1/product/Montblanc/Montblanc Explorer Mont Blanc EDP.jpg",
@@ -26,7 +26,8 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1785000",
-    nongdo: "EDP",
+    giamoi: "1590000",
+    nongdo: "EDT",
   },
 ];
 
@@ -48,11 +49,17 @@ function hienNH(
     gioitinhNH = arrNH[i].gioitinh;
     dungtichNH = arrNH[i].dungtich;
     giaNH = arrNH[i].gia;
+    giamoiNH = arrNH[i].giamoi;
     nongdoNH = arrNH[i].nongdo;
     giaFormatted = parseFloat(giaNH).toLocaleString("vi-VN", {
       style: "currency",
       currency: "VND",
     });
+    giaFormatted1 = parseFloat(giamoiNH).toLocaleString("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    });
+
     //filter brand
     if (brandcheck_arr.length > 0) {
       if (brandcheck_arr.includes(thuonghieuNH) == false) continue;
@@ -74,7 +81,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-40 mb-35">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">
@@ -112,7 +119,8 @@ function hienNH(
                             >
                           </h4>
                           <div class="price-box">
-                            <span class="new-price">${giaFormatted}</span>
+                            <span class="old-price">${giaFormatted}</span>
+                            <span class="new-price">${giaFormatted1}</span>
                             <span>${dungtichNH}ML</span>
                           </div>
                         </div>

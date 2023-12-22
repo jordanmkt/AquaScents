@@ -1,14 +1,14 @@
 var arrNH = [
   {
     brand: "Chanel",
-    hinh: "images_1/product/Chanel/Chanel Coco Mademoiselle Intense.jpg",
+    hinh: "images_1/product/Chanel/Chanel Coco Mademoiselle.jpg",
     sp: "Chanel Coco Mademoiselle Intense",
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "4200000",
+    giamoi: "3990000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Coco Mademoiselle.jpg",
@@ -16,9 +16,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "4000000",
+    giamoi: "3890000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Chance.jpg",
@@ -26,9 +26,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "3990000",
+    giamoi: "3790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Chance Eau Tendre.jpg",
@@ -36,9 +36,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "4000000",
+    giamoi: "3790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Bleu De Chanel Parfum.jpg",
@@ -46,9 +46,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "4350000",
+    giamoi: "4090000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Allure Homme Sport.jpg",
@@ -56,6 +56,7 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "3400000",
+    giamoi: "3290000",
     nongdo: "EDT",
   },
 ];
@@ -78,11 +79,17 @@ function hienNH(
     gioitinhNH = arrNH[i].gioitinh;
     dungtichNH = arrNH[i].dungtich;
     giaNH = arrNH[i].gia;
+    giamoiNH = arrNH[i].giamoi;
     nongdoNH = arrNH[i].nongdo;
     giaFormatted = parseFloat(giaNH).toLocaleString("vi-VN", {
       style: "currency",
       currency: "VND",
     });
+    giaFormatted1 = parseFloat(giamoiNH).toLocaleString("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    });
+
     //filter brand
     if (brandcheck_arr.length > 0) {
       if (brandcheck_arr.includes(thuonghieuNH) == false) continue;
@@ -104,7 +111,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-40 mb-35">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">
@@ -142,7 +149,8 @@ function hienNH(
                             >
                           </h4>
                           <div class="price-box">
-                            <span class="new-price">${giaFormatted}</span>
+                            <span class="old-price">${giaFormatted}</span>
+                            <span class="new-price">${giaFormatted1}</span>
                             <span>${dungtichNH}ML</span>
                           </div>
                         </div>

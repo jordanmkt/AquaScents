@@ -2,10 +2,21 @@ var arrNH = [
   {
     brand: "Armaf",
     hinh: "images_1/product/Armaf/Amaf club de nuit women.jpg",
-    sp: "Amaf club de nuit women",
+    sp: "Armaf club de nuit women",
     gioitinh: "Nữ",
     dungtich: "105",
     gia: "1050000",
+    giamoi: "990000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Armaf",
+    hinh: "images_1/product/Armaf/Armaf Club De Nuit Intense Man Limited Edition EDP.jpg",
+    sp: "Armaf Club De Nuit Intense Man Limited Edition EDP",
+    gioitinh: "Nam",
+    dungtich: "100",
+    gia: "2200000",
+    giamoi: "1990000",
     nongdo: "EDP",
   },
 
@@ -16,9 +27,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1050000",
+    giamoi: "890000",
     nongdo: "EDT",
   },
-
   {
     brand: "Calvin Klein",
     hinh: "images_1/product/Calvin Klein/CK One.jpg",
@@ -26,29 +37,29 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1050000",
+    giamoi: "890000",
     nongdo: "EDT",
   },
-
   {
     brand: "Calvin Klein",
     hinh: "images_1/product/Calvin Klein/Eternity Air.jpg",
-    sp: "Eternity Air",
+    sp: "AIR",
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1600000",
+    giamoi: "1390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Carolina Herrera 212",
-    hinh: "images_1/product/Carolina Herrera 212/Carolina Herrera 212 Sexy Men.jpg ",
+    hinh: "images_1/product/Carolina Herrera 212/Carolina Herrera 212 Sexy Men.jpg",
     sp: "Carolina Herrera 212 Sexy Men",
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1870000",
+    giamoi: "1790000",
     nongdo: "EDT",
   },
-
   {
     brand: "Carolina Herrera 212",
     hinh: "images_1/product/Carolina Herrera 212/Carolina Herrera 212 Men NYC.jpg",
@@ -56,19 +67,19 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2000000",
+    giamoi: "1890000",
     nongdo: "EDT",
   },
-
   {
     brand: "Chanel",
-    hinh: "images_1/product/Chanel/Chanel Coco Mademoiselle Intense.jpg",
+    hinh: "images_1/product/Chanel/Chanel Coco Mademoiselle.jpg",
     sp: "Chanel Coco Mademoiselle Intense",
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "4200000",
+    giamoi: "3990000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Coco Mademoiselle.jpg",
@@ -76,9 +87,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "4000000",
+    giamoi: "3890000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Chance.jpg",
@@ -86,9 +97,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "3990000",
+    giamoi: "3790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Chance Eau Tendre.jpg",
@@ -96,9 +107,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "4000000",
+    giamoi: "3790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Bleu De Chanel Parfum.jpg",
@@ -106,9 +117,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "4350000",
+    giamoi: "4090000",
     nongdo: "EDP",
   },
-
   {
     brand: "Chanel",
     hinh: "images_1/product/Chanel/Chanel Allure Homme Sport.jpg",
@@ -116,9 +127,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "3400000",
+    giamoi: "3290000",
     nongdo: "EDT",
   },
-
   {
     brand: "Diesel",
     hinh: "images_1/product/Diesel/Diesel Fuel For Life for men.jpg",
@@ -126,9 +137,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "125",
     gia: "1780000",
+    giamoi: "1590000",
     nongdo: "EDT",
   },
-
   {
     brand: "Elizabeth Arden",
     hinh: "images_1/product/Elizabeth Arden/Elizabeth Arden Red Door.jpg",
@@ -136,9 +147,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1150000",
+    giamoi: "1100000",
     nongdo: "EDT",
   },
-
   {
     brand: "Giorgio Armani",
     hinh: "images_1/product/Giorgio Armani/Giorgio Armani Acqua Di Gio Pour Homme For Men.jpg",
@@ -146,9 +157,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1912000",
+    giamoi: "1790000",
     nongdo: "EDT",
   },
-
   {
     brand: "Gucci",
     hinh: "images_1/product/Gucci/Gucci Pour Homme.jpg",
@@ -156,9 +167,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "90",
     gia: "2580000",
+    giamoi: "2290000",
     nongdo: "EDT",
   },
-
   {
     brand: "Guess",
     hinh: "images_1/product/Guess/Guess girl.jpg",
@@ -166,9 +177,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1500000",
+    giamoi: "1390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hermes",
     hinh: "images_1/product/Hermes/Hermes Un Jardin sur le Toit Eau de Toilette.jpg",
@@ -176,29 +187,29 @@ var arrNH = [
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2700000",
+    giamoi: "2490000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hermes",
     hinh: "images_1/product/Hermes/Hermes LAmbre des Merveilles.jpg",
-    sp: "Hermes LAmbre des Merveilles",
+    sp: "Hermes L'Ambre des Merveilles",
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2950000",
+    giamoi: "2790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Hermes",
     hinh: "images_1/product/Hermes/Hermes Lombre des Merveilles.jpg",
-    sp: "Hermes Lombre des Merveilles",
+    sp: "Hermes L'ombre des Merveilles",
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "2499000",
+    giamoi: "2299000",
     nongdo: "EDP",
   },
-
   {
     brand: "Hermes",
     hinh: "images_1/product/Hermes/Hermes Twilly DHermes For Women EDP.jpg",
@@ -206,9 +217,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "85",
     gia: "3150000",
+    giamoi: "2790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss The Scent Magnetic For Him.jpg",
@@ -216,9 +227,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2650000",
+    giamoi: "1890000",
     nongdo: "EDP",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss Bottled Night.jpg",
@@ -226,9 +237,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2530000",
+    giamoi: "2290000",
     nongdo: "EDP",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss The Scent.jpg",
@@ -236,9 +247,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2530000",
+    giamoi: "2390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss Bottled Unlimited.jpg",
@@ -246,9 +257,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2390000",
+    giamoi: "2190000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss Hugo Just Different.jpg",
@@ -256,9 +267,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "125",
     gia: "1650000",
+    giamoi: "1490000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss XY Man.jpg",
@@ -266,9 +277,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1250000",
+    giamoi: "1190000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss XX.jpg",
@@ -276,9 +287,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1460000",
+    giamoi: "1390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Hugo Boss",
     hinh: "images_1/product/Hugo/Hugo Boss Bottled.jpg",
@@ -286,9 +297,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2530000",
+    giamoi: "2290000",
     nongdo: "EDT",
   },
-
   {
     brand: "Jean Paul Gaultier",
     hinh: "images_1/product/Jean Paul Gaultier/Jean Paul Gaultier Scandal Pour Homme.jpg",
@@ -296,9 +307,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "3000000",
+    giamoi: "2790000",
     nongdo: "EDT",
   },
-
   {
     brand: "Lacoste",
     hinh: "images_1/product/Lacoste/Lacoste Touch of Pink.jpg",
@@ -306,9 +317,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "90",
     gia: "1500000",
+    giamoi: "1390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Mancera",
     hinh: "images_1/product/Mancera/Mancera Roses Greedy Eau de Parfum.jpg",
@@ -316,9 +327,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "120",
     gia: "2650000",
+    giamoi: "2390000",
     nongdo: "EDP",
   },
-
   {
     brand: "Mancera",
     hinh: "images_1/product/Mancera/Mancera Hindu Kush.jpg",
@@ -326,9 +337,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "120",
     gia: "2800000",
+    giamoi: "2590000",
     nongdo: "EDP",
   },
-
   {
     brand: "Mancera",
     hinh: "images_1/product/Mancera/Mancera Black Gold.jpg",
@@ -336,9 +347,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "120",
     gia: "2850000",
+    giamoi: "2590000",
     nongdo: "EDP",
   },
-
   {
     brand: "Mancera",
     hinh: "images_1/product/Mancera/Mancera So Blue.jpg",
@@ -346,9 +357,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "120",
     gia: "2450000",
+    giamoi: "2190000",
     nongdo: "EDP",
   },
-
   {
     brand: "Marc Jacobs",
     hinh: "images_1/product/Marc Jacobs/Marc Jacobs Daisy Eau So Fresh.jpg",
@@ -356,9 +367,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "125",
     gia: "2447000",
+    giamoi: "2190000",
     nongdo: "EDP",
   },
-
   {
     brand: "Montblanc",
     hinh: "images_1/product/Montblanc/Montblanc Legend EDP.jpg",
@@ -366,9 +377,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "2600000",
+    giamoi: "2390000",
     nongdo: "EDP",
   },
-
   {
     brand: "Montblanc",
     hinh: "images_1/product/Montblanc/Montblanc Legend Spirit.jpg",
@@ -376,9 +387,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1750000",
+    giamoi: "1590000",
     nongdo: "EDT",
   },
-
   {
     brand: "Montblanc",
     hinh: "images_1/product/Montblanc/Montblanc Explorer Mont Blanc EDP.jpg",
@@ -386,9 +397,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1785000",
-    nongdo: "EDP",
+    giamoi: "1590000",
+    nongdo: "EDT",
   },
-
   {
     brand: "Moschino",
     hinh: "images_1/product/Moschino/Moschino Toy 2.jpg",
@@ -396,9 +407,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "30",
     gia: "1232000",
+    giamoi: "1090000",
     nongdo: "EDP",
   },
-
   {
     brand: "Narciso Rodriguez",
     hinh: "images_1/product/Narciso Rodriguez/Narciso Rodriguez For Her EDP 30ml.jpg",
@@ -406,9 +417,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "30",
     gia: "1700000",
+    giamoi: "1590000",
     nongdo: "EDP",
   },
-
   {
     brand: "Narciso Rodriguez",
     hinh: "images_1/product/Narciso Rodriguez/Narciso Rodriguez Poudree.jpg",
@@ -416,29 +427,29 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "30",
     gia: "1580000",
+    giamoi: "1490000",
     nongdo: "EDP",
   },
-
   {
     brand: "Polo",
     hinh: "images_1/product/Polo/Eau de Perfume.jpg",
     sp: "Eau de Perfume",
     gioitinh: "Nam",
     dungtich: "125",
-    gia: "3000000",
+    gia: "2620000",
+    giamoi: "2390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Polo",
     hinh: "images_1/product/Polo/Eau de Toilet.jpg",
     sp: "Eau de Toilet",
     gioitinh: "Nam",
     dungtich: "125",
-    gia: "2620000",
+    gia: "3000000",
+    giamoi: "2790000",
     nongdo: "EDP",
   },
-
   {
     brand: "Polo",
     hinh: "images_1/product/Polo/Ralph Lauren Polo Black.jpg",
@@ -446,9 +457,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "125",
     gia: "2620000",
+    giamoi: "2390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Salvatore Ferragamo",
     hinh: "images_1/product/Salvatore Ferragamo/Salvatore Ferragamo Signorina Eau de Parfum.jpg",
@@ -456,9 +467,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1850000",
+    giamoi: "1690000",
     nongdo: "EDP",
   },
-
   {
     brand: "Tommy",
     hinh: "images_1/product/Tommy/Tommy Now.jpg",
@@ -466,9 +477,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1550000",
+    giamoi: "1390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Ventana",
     hinh: "images_1/product/Ventana/Ventana 100ml.jpg",
@@ -476,9 +487,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1180000",
+    giamoi: "990000",
     nongdo: "EDP",
   },
-
   {
     brand: "Versace",
     hinh: "images_1/product/Versace/Versace bright crystal 30ml.jpg",
@@ -486,9 +497,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "30",
     gia: "1573000",
+    giamoi: "1390000",
     nongdo: "EDP",
   },
-
   {
     brand: "Versace",
     hinh: "images_1/product/Versace/Versace Man Eau Fraiche.jpg",
@@ -496,9 +507,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1850000",
+    giamoi: "1690000",
     nongdo: "EDT",
   },
-
   {
     brand: "Versace",
     hinh: "images_1/product/Versace/Versace Pour Homme.jpg",
@@ -506,9 +517,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "1606000",
+    giamoi: "1490000",
     nongdo: "EDT",
   },
-
   {
     brand: "Giorgio Armani",
     hinh: "images_1/product/Giorgio Armani/Giorgio Armani Acqua Di Gio Pour Homme For Men.jpg",
@@ -516,17 +527,8 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "300",
     gia: "5350000",
+    giamoi: "4990000",
     nongdo: "EDT",
-  },
-
-  {
-    brand: "Armaf",
-    hinh: "images_1/product/Armaf/Armaf Club De Nuit Intense Man Limited Edition EDP.jpg",
-    sp: "Armaf Club De Nuit Intense Man Limited Edition EDP",
-    gioitinh: "Nam",
-    dungtich: "100",
-    gia: "2200000",
-    nongdo: "EDP",
   },
 
   {
@@ -536,9 +538,9 @@ var arrNH = [
     gioitinh: "Nam",
     dungtich: "100",
     gia: "6500000",
+    giamoi: "6190000",
     nongdo: "EDP",
   },
-
   {
     brand: "Tom Ford",
     hinh: "images_1/product/Tom Ford/Tom Ford Velvet Orchid.jpg",
@@ -546,9 +548,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "3890000",
+    giamoi: "3690000",
     nongdo: "EDP",
   },
-
   {
     brand: "Tom Ford",
     hinh: "images_1/product/Tom Ford/Tom Ford Ombre Leather.jpg",
@@ -556,6 +558,27 @@ var arrNH = [
     gioitinh: "Unisex",
     dungtich: "100",
     gia: "3612000",
+    giamoi: "3390000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Tom Ford",
+    hinh: "images_1/product/Tom Ford/Tom Ford OudWood.jpg",
+    sp: "Tom Ford Oud Wood",
+    gioitinh: "Unisex",
+    dungtich: "50",
+    gia: "4950000",
+    giamoi: "4550000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Tom Ford",
+    hinh: "images_1/product/Tom Ford/Tom Ford Lost Cherry.jpg",
+    sp: "Tom Ford Lost Cherry",
+    gioitinh: "Unisex",
+    dungtich: "50",
+    gia: "6200000",
+    giamoi: "5890000",
     nongdo: "EDP",
   },
 
@@ -566,9 +589,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "1850000",
+    giamoi: "1690000",
     nongdo: "EDP",
   },
-
   {
     brand: "Gucci",
     hinh: "images_1/product/Gucci/Gucci Rush.jpg",
@@ -576,9 +599,9 @@ var arrNH = [
     gioitinh: "Nữ",
     dungtich: "100",
     gia: "2600000",
+    giamoi: "2390000",
     nongdo: "EDT",
   },
-
   {
     brand: "Maison Francis Kurkdjian Paris",
     hinh: "images_1/product/Maison Francis/Maison Francis Kurkdjian Baccarat Rouge 540 Extrait.jpg",
@@ -586,6 +609,77 @@ var arrNH = [
     gioitinh: "Unisex",
     dungtich: "200",
     gia: "18000000",
+    giamoi: "16990000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Kilian",
+    hinh: "images_1/product/Kilian/Kilian Good Girl Gone Bad.jpg",
+    sp: "Kilian Good Girl Gone Bad",
+    gioitinh: "Nữ",
+    dungtich: "50",
+    gia: "5350000",
+    giamoi: "4990000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Kilian",
+    hinh: "images_1/product/Kilian/Kilian Good Girl Gone Bad (With Coffret).jpg",
+    sp: "Kilian Good Girl Gone Bad (With Coffret)",
+    gioitinh: "Nữ",
+    dungtich: "50",
+    gia: "6350000",
+    giamoi: "5990000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Dior",
+    hinh: "images_1/product/Dior/Miss Dior Absolutely Blooming.jpg",
+    sp: "Miss Dior Absolutely Blooming",
+    gioitinh: "Nữ",
+    dungtich: "100",
+    gia: "3500000",
+    giamoi: "3390000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Dior",
+    hinh: "images_1/product/Dior/Miss Dior Blooming Bouquet.jpg",
+    sp: "Miss Dior Blooming Bouquet",
+    gioitinh: "Nữ",
+    dungtich: "100",
+    gia: "3200000",
+    giamoi: "2990000",
+    nongdo: "EDT",
+  },
+  {
+    brand: "Dior",
+    hinh: "images_1/product/Dior/Jadore Parfum D'eau.jpg",
+    sp: "Jadore Parfum D'eau",
+    gioitinh: "Nữ",
+    dungtich: "100",
+    gia: "3600000",
+    giamoi: "3490000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Dior",
+    hinh: "images_1/product/Dior/Dior J'adore Infinissime.jpg",
+    sp: "Dior J'adore Infinissime",
+    gioitinh: "Nữ",
+    dungtich: "100",
+    gia: "3300000",
+    giamoi: "3190000",
+    nongdo: "EDP",
+  },
+  {
+    brand: "Versace",
+    hinh: "images_1/product/Versace/Versace Dylan Blue Pour Femme.jpg",
+    sp: "Versace Dylan Blue Pour Femme",
+    gioitinh: "Nữ",
+    dungtich: "100",
+    gia: "2300000",
+    giamoi: "2090000",
     nongdo: "EDP",
   },
 ];
@@ -608,11 +702,17 @@ function hienNH(
     gioitinhNH = arrNH[i].gioitinh;
     dungtichNH = arrNH[i].dungtich;
     giaNH = arrNH[i].gia;
+    giamoiNH = arrNH[i].giamoi;
     nongdoNH = arrNH[i].nongdo;
     giaFormatted = parseFloat(giaNH).toLocaleString("vi-VN", {
       style: "currency",
       currency: "VND",
     });
+    giaFormatted1 = parseFloat(giamoiNH).toLocaleString("vi-VN", {
+      style: "currency",
+      currency: "VND",
+    });
+
     //filter brand
     if (brandcheck_arr.length > 0) {
       if (brandcheck_arr.includes(thuonghieuNH) == false) continue;
@@ -634,7 +734,7 @@ function hienNH(
     countproducts2++;
 
     list.innerHTML += `
-    <div class="col-lg-3 col-md-3 col-sm-3 col-6 mt-40 mb-35">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-40 mb-35">
                     <!-- single-product-wrap start -->
                     <div class="single-product-wrap">
                       <div class="product-image">
@@ -672,7 +772,8 @@ function hienNH(
                             >
                           </h4>
                           <div class="price-box">
-                            <span class="new-price">${giaFormatted}</span>
+                            <span class="old-price">${giaFormatted}</span>
+                            <span class="new-price">${giaFormatted1}</span>
                             <span>${dungtichNH}ML</span>
                           </div>
                         </div>
@@ -709,11 +810,11 @@ function hienNH(
   }
   document.getElementById(
     "countproducts"
-  ).innerHTML = `Showing ${countproducts} of 59 items`;
+  ).innerHTML = `Showing ${countproducts} of 68 items`;
 
   document.getElementById(
     "countproducts2"
-  ).innerHTML = `Showing ${countproducts2} of 59 items`;
+  ).innerHTML = `Showing ${countproducts2} of 68 items`;
 }
 hienNH();
 
