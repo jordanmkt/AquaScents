@@ -780,9 +780,9 @@ function hienNH(
                         <div class="add-actions">
                           <ul class="add-actions-link">
                             <li class="add-cart active">
-                              <a href="#">Mua ngay</a>
+                              <a href="#" onclick="updateProductName('${tenNH}'); openPopup()">Mua ngay</a>
                             </li>
-                            <!-- <li>
+                            <li>
                               <a
                                 href="#"
                                 title="quick view"
@@ -795,17 +795,16 @@ function hienNH(
                             <li>
                               <a
                                 class="links-details"
-                                href="wishlist.html"
+                                href="#"
                                 ><i class="fa fa-heart-o"></i
                               ></a>
-                            </li> -->
+                            </li>
                           </ul>
                         </div>
                       </div>
                     </div>
                     <!-- single-product-wrap end -->
                   </div>
-
     `;
   }
   document.getElementById(

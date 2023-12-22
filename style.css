@@ -2430,6 +2430,7 @@ textarea:focus {
   line-height: 35px;
   width: 35px;
 }
+
 .add-actions-link li.add-cart {
   float: left;
   margin: 0;
@@ -2453,6 +2454,64 @@ textarea:focus {
   -webkit-transition: all 300ms ease-in 0s;
   transition: all 300ms ease-in 0s;
 }
+/* Thêm vào phần CSS của bạn */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px; /* Bo tròn góc form */
+  width: 550px; /* Điều chỉnh độ rộng của form */
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 34px;
+}
+
+.database {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 350px;
+  border-radius: 5px;
+}
+
+button {
+  grid-column: 1/-1;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f98967;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
 .add-actions-link li.add-cart.active a {
   color: #242424;
 }

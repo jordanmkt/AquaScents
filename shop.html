@@ -1145,6 +1145,44 @@
     <script src="js/main.js"></script>
     <!-- Filter js -->
     <script src="js/filter-shop.js"></script>
+    <!-- Script js -->
+    <script src="js/script.js"></script>
+
+    <!-- Thêm vào cuối thẻ body -->
+    <div class="popup" id="purchaseForm">
+      <div class="popup-content">
+        <span class="close" onclick="closePurchaseForm()">&times;</span>
+        <form class="database">
+          <label for="fullName">Họ tên:</label>
+          <input type="text" id="fullName" name="fullName" required />
+
+          <label for="phone">Số điện thoại:</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <label for="address">Địa chỉ:</label>
+          <input type="text" id="address" name="address" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="product">Sản phẩm:</label>
+          <input
+            type="text"
+            id="product"
+            name="product"
+            value="${tenNH}"
+            readonly
+          />
+          <label for="quantity">Số lượng:</label>
+          <input type="number" id="quantity" name="quantity" required />
+
+          <label for="text">Ghi chú:</label>
+          <input type="text" id="fullName" name="fullName" required />
+
+          <button type="button" onclick="submitPurchaseForm()">Đặt mua</button>
+        </form>
+      </div>
+    </div>
   </body>
 
   <!-- shop31:48-->
